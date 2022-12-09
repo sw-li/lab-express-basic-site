@@ -16,4 +16,4 @@ app.get("/works", (req,res)=>{
     res.sendFile(__dirname +"/views/works.html")
 })
 
-app.listen(4000)
+app.listen(3000)

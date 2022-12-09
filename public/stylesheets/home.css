@@ -1,23 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    font-size: 20px;
+}
+
 body {
+    font-family: 'Satisfy', cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('/images/Charlie_Chaplin.webp') center center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255,255,255,0.5);
 }
 
-nav {
+nav ul {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     height: 70px;
+    gap: 30px;
 }
 
 header {
+    flex-grow: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 6rem;
 }
