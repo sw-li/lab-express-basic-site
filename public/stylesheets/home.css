@@ -44,10 +44,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 h1 {
     font-family: 'La Belle Aurore', cursive;
     font-size: 6rem;
+    margin-top: 150px;
+}
+
+p {
+    margin-bottom: 300px;
+    font-size: 3rem;
 }
